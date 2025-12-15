@@ -1,0 +1,25 @@
+{
+  "name": "stacks-governance-vault",
+  "version": "1.0.0",
+  "description": "Node.js Middleware for the Stacks Governance Vault (SGV), integrating Google Sheets and Chainhooks.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "dao",
+    "google-sheets",
+    "chainhooks"
+  ],
+  "author": "Your Name Here",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^133.0.0",
+    "micro-stacks": "^1.2.0"
+  }
+}
